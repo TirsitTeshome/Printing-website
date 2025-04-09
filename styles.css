@@ -7,6 +7,7 @@ body {
     margin: 0 auto;
     font-family: poppins;
     overflow-x: hidden;
+
 }
 
 .top-bar {
@@ -249,11 +250,8 @@ body {
     }
 }
 
-#profile {}
-
 .quality {
     display: flex;
-    /* justify-content: space-between; */
     width: 95%;
     
 }
@@ -458,3 +456,193 @@ body {
 #list {
     margin-bottom: 2%;
 }
+
+
+@media only screen and (max-width: 430px){
+  body{
+    width:80%;
+  }
+  .top-bar{
+    font-size: 10px;
+  }
+  .first-page{
+    width:100%;
+    height: 320px;
+  }
+  #title{
+    font-size: 10px;
+    text-align: center;
+  }
+  .catagories{
+    flex-direction: row;
+    a{
+        
+        font-size: 8px;
+  }
+  #phone{
+    font-size: 15px;
+    margin-left: 2%;
+  }
+  
+}
+#motto{
+    font-size: 18px;
+  }
+  .text-overlay{
+    p{
+        font-size: 7px;
+    }
+  }
+  #contact{
+    height:17px;
+    width:100px;
+    font-size: 7px;
+  }
+  .border{
+    font-size: 6px;
+}
+
+#bed img{
+    height:200px;
+    width:100%;
+}
+
+.timeless-text{
+    font-size: 6px;
+    line-height: 1.1;
+    width: 100%;
+    gap:2%;
+}
+
+#know-more{
+height:40px;
+width:50%;
+font-size: 10px;
+}
+
+#contact-us{
+    height:40px;
+    width:50%;
+    font-size: 10px;
+    }
+
+#icon img{
+    height: 30px;
+    width: 30px;
+}
+.icons{
+    padding: 1%;
+    gap:1%
+}
+#text{
+    font-size: 5px;
+}
+
+#description{
+    font-size: 8px;
+    width: 100%;
+}
+.techniques img{
+    height:100px;
+    width:100px;
+}
+
+.header-next{
+    font-size: 5px;
+
+}
+#next-icon{
+font-size: 15px;
+height: 15px;
+width: 15px;
+padding: 3%;
+}
+
+
+.fabrics p{
+    font-size: 8px;
+}
+
+.client{
+    font-size: 9px;
+}
+#clients{
+   padding: 1%;
+   width: 100%;
+    img{
+        height: 30px;
+        width: 30px;
+        margin: 3% 4%;
+    }
+}
+.quality{
+    width: 100%;
+    gap:3%;
+}
+.quality img{
+height: 150px;
+width:200px
+}
+#right-section-text{
+    font-size: 6px;
+    margin-left: -7%;
+    width: 100%;
+    line-height: 1.2;
+
+    .stars{
+        font-size: 10px;
+    }
+}
+.brands {
+    gap:6%;
+}
+.brands img{
+height:30px;
+width:30px;
+}
+#third-brand{
+    height:30px;
+    width:80px;
+}
+.showcase{
+    font-size: 10px;
+}
+#thrift img{
+    height:100px;
+}
+.map{
+    h1{
+font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .box{
+        height: 10px;
+    }
+    .map-pic{
+        /* margin-top: 10%; */
+        padding: 1%;
+      
+        .map h3{
+            font-size: 10px;
+        }
+    }
+}
+#phone-num{
+    height:100px;
+    width: 50px;
+    font-size: 10px;
+}
+
+#rounded-icon{
+    height:20px;
+    width:20px;
+    font-size: 15px;
+
+}
+#contact-ways{
+    font-size: 10px;
+}
+}
+
