@@ -617,22 +617,21 @@ font-size: 10px;
     p{
         font-size: 10px;
     }
-    .box{
-        height: 10px;
-    }
     .map-pic{
-        /* margin-top: 10%; */
+      height: 100px;
+      width:30%;
         padding: 1%;
       
-        .map h3{
-            font-size: 10px;
+        h3{
+            font-size: 4px;
         }
     }
 }
-#phone-num{
-    height:100px;
-    width: 50px;
+.phone-num{
+    height:20px;
+ width:35%;
     font-size: 10px;
+    font-size: 5px;
 }
 
 #rounded-icon{
@@ -644,5 +643,12 @@ font-size: 10px;
 #contact-ways{
     font-size: 10px;
 }
-}
+.footer-icons{
+font-size: 5px;
 
+}
+.box{
+    width: 40%;
+    height:10px;
+}
+}
