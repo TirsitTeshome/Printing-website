@@ -13,7 +13,7 @@ body {
     border: 1px solid green;
     background-color: green;
     text-align: center;
-    font-size: 12px;
+    font-size: 18px;
     color: white;
 }
 
@@ -22,6 +22,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
+    height: 1050px;
     color: white;
     text-align: center;
 }
@@ -29,30 +30,26 @@ body {
 #title {
     margin-top: 0%;
     display: flex;
-    font-size: 40px;
-
+    font-size: 25px;
 }
 
 #motto {
-
-    font-size: 170px;
-    height: 650px;
-    width: 100%;
-
+    font-size: 100px;
 }
 
 .text-overlay {
     margin-top: 8%;
-    padding-bottom: 20%;
+    padding-bottom: 8%;
 
     p {
-        font-size: 45px;
-        margin-top: -7%;
+        font-size: 25px;
+        margin-top: 2%;
     }
 }
 
 #contact {
     background-color: gray;
+    border: none;
     border-radius: 20px;
     font-size: 40px;
     font-family: poppins;
@@ -67,20 +64,21 @@ body {
     display: flex;
     gap: 5%;
     justify-content: center;
-    font-size: x-large;
+    font-size:30px;
     padding-top: 3%;
     font-size: 30px;
 
     a {
         text-decoration: none;
         color: white;
+        font-size:20px;
     }
 
 }
 
 #phone {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 10%;
 }
 
@@ -89,27 +87,28 @@ body {
     margin-bottom: 4%;
     border-top: 2px solid rgb(6, 34, 4);
     border-bottom: 2px solid rgb(1, 20, 3);
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
 }
 
 .artistry {
     display: flex;
-    gap: 7%;
-    line-height: 1.8;
+    gap: 2%;
+    line-height: 1.6;
     justify-content: center;
     margin-bottom: 3%;
 }
 
 #bed img {
-    height: 900px;
-    width: 100%;
+    height: 600px;
+    width: 90%;
     border-radius: 5%;
+    margin-left: 3%;
 
 }
 
 .timeless-text {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 #green-text {
@@ -118,60 +117,62 @@ body {
 
 .buttons {
     display: flex;
-    gap: 15%;
+    gap: 8%;
     margin-top: 8%;
+
+    i{
+        transform: rotate(-45deg);
+    }
 }
 
 #know-more {
-    height: 100px;
+    height: 80px;
     width: 35%;
     border-radius: 50px;
-    font-size: 40px;
+    font-size: 25px;
     background-color: green;
     color: white;
+    border: 1px solid green;
+
 }
 
 #contact-us {
-    height: 100px;
+    height: 80px;
     width: 35%;
     border-radius: 50px;
-    font-size: 40px;
+    font-size: 25px;
+    border: black 1px solid;
 }
 
 .icons {
     display: flex;
-    gap: 3%;
-    width: 90%;
-    margin: 5%;
-    margin-left: 3%;
-    margin-bottom: 12%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    gap: 4%;
+    padding: 3% 0% 3% 10%;
+    margin-bottom: 9%;
     border: 1px solid #e1f5e4;
     background-color: #D9D9D9;
-    justify-content: space-between;
 }
 
 #icon img {
-    height: 120px;
+    height: 100px;
     width: 100px;
-    justify-content: center;
 }
 
 #text {
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #excellence {
     color: black;
     display: flex;
-    gap: 5%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .techniques {
-    font-size: 30px;
+    font-size: 18px;
     margin-bottom: 7%;
-    margin: 3%;
+    margin: 4%;
     line-height: 1.3;
 }
 
@@ -179,7 +180,7 @@ body {
     margin-bottom: 6%;
     text-align: center;
     line-height: 2;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .header-next {
@@ -191,17 +192,17 @@ body {
 #next-icon {
 
     margin-left: 50%;
-    /* gap: 70%; */
     background-color: #D9D9D9;
-    margin: 10%;
-    font-size: 70px;
+    margin: 4%;
+    font-size: 50px;
+    height: 50px;
     border-radius: 80%;
     padding: 2%;
 }
 
 .techniques img {
-    height: 900px;
-    width: 800px;
+    height: 600px;
+    width: 500px;
     border-radius: 5%;
 }
 
@@ -218,26 +219,27 @@ body {
 .client {
     text-align: center;
     margin: 10%;
-    font-size: xx-large;
+    font-size: 23px;
     line-height: 1.7;
 }
 
 .users {
     display: flex;
-    margin: 8%;
+    margin: 5%;
     align-items: center;
+    gap: 15%;
 }
 
 #clients {
     display: flex;
     justify-content: space-between;
-    gap: 4%;
+
     img {
-        height: 150px;
-        width: 105%;
+        height: 120px;
+        width: 80%;
         gap: 5%;
+        margin-right: 3%;
         align-items: center;
-        justify-content: space-between;
 
     }
 }
@@ -246,21 +248,25 @@ body {
 
 .quality {
     display: flex;
-    gap: 5%;
-    width: 100%;
+    /* justify-content: space-between; */
+    width: 95%;
+    
 }
 
 .quality img {
-    height: 900px;
-    width: 100%;
+    height: 550px;
+    width: 750px;
     border-radius: 5%;
+    margin-top: 5%;
 }
 
 #right-section-text {
     justify-content: center;
-    font-size: 30px;
-    line-height: 2;
+    font-size: 20px;
     margin-left: 5%;
+    line-height: 1.8;
+    width: 100%;
+    margin-top: 2%;
 
     h1 {
         margin-bottom: 5%;
@@ -269,7 +275,7 @@ body {
     .stars {
         display: flex;
         margin-bottom: 5%;
-        font-size: 45px;
+        font-size: 35px;
         color: green;
         gap: 2%;
     }
@@ -285,21 +291,22 @@ body {
 
 .brands img {
     display: flex;
-    height: 220px;
-    width: 200px;
+    height: 100px;
+    width: 160px;
 
 
 }
 
 #third-brand {
-    height: 120px;
+    height: 100px;
     width: 300px;
 }
 
 .showcase {
     text-align: center;
-    font-size: xx-large;
-    margin: 10%;
+    font-size: 25px;
+    margin: 6%;
+    margin-top: 15%;
 }
 
 .showcase-text {
@@ -309,13 +316,14 @@ body {
 #thrift {
     display: flex;
     gap: 3%;
-
-
+    margin-right: 5%;
 }
 
 #thrift img {
     border-radius: 5%;
     margin-bottom: 1.5%;
+    height: 600px;
+    /* width:80%; */
 }
 
 .map img {
@@ -330,8 +338,8 @@ body {
 }
 
 #blue-bed {
-    height: 850px;
-    width: 750px;
+    height: 650px;
+    width: 550px;
 }
 
 #scarf-woman {
@@ -340,7 +348,7 @@ body {
 }
 
 .map {
-    font-size: xx-large;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -361,7 +369,6 @@ body {
 }
 
 .phone-num i {
-    /* padding-top: 15%; */
     display: flex;
 }
 
@@ -371,31 +378,31 @@ body {
     background-color: white;
     box-shadow: 15px 10px 10px 15px darkgrey;
     border-radius: 50px;
-    font-size: 30px;
+    font-size: 15px;
     margin-top: -40%;
     margin-left: 10%;
     align-items: center;
 
     .map h3 {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
-#rounded-icon{
-background-color: black;
-border-radius: 150px;
-height:80px;
-width: 100px;
-color: white;
-font-size: 50px;
-padding: 3%;
-margin-top:5%;
+#rounded-icon {
+    background-color: black;
+    border-radius: 180px;
+    height: 40px;
+    width: 50px;
+    color: white;
+    font-size: 30px;
+    padding: 3%;
+    margin-top: 5%;
 }
 
 .footer {
     display: flex;
     gap: 5%;
-    font-size: 25px;
+    font-size: 17px;
     color: white;
     border-color: 1px solid;
     background-color: rgba(33, 48, 54, 255);
@@ -403,24 +410,24 @@ margin-top:5%;
 }
 
 #logo img {
-    height: 380px;
-    width: 400px;
+    height: 300px;
+    width: 320px;
     border-radius: 5%;
 }
 
 #copyright {
     background-color: rgba(33, 48, 54, 255);
     border-top: white 1px solid;
-    ;
     padding: 2%;
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 13px;
 }
 
 .elements {
     display: inline;
     line-height: 1.2;
+    font-size: 13px;
 }
 
 .footer-icons {
